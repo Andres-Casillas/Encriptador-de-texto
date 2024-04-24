@@ -1,0 +1,111 @@
+body{
+    background-color: #f4f4f4;
+}
+
+header{
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 48px;
+
+}
+
+.entrada{
+    position: relative;
+    width: 40%;
+    height: 340px;
+    left: 240px;
+    top: 85px;
+    border-radius: 15px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #414141; 
+	overflow: auto;
+    resize: none;
+
+    display: block;
+    text-align: center;
+
+}
+
+.salida{  
+
+position: absolute;
+width: 33%;
+height: 90%;
+left: 65%;
+top: 40px;
+
+background: #daddff;
+resize: none;
+
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.3);
+border-radius: 32px;
+
+
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+
+text-align: center;
+color: black;
+}
+
+.botones{
+    
+    position: relative;
+    width: 40%;
+    height: 67px;
+    left: 20%;
+    top: 150px;
+}
+
+.btn-1, .btn-2, .btn-3{
+
+    width: 200px;
+    height: 67px;
+    margin: 23px;
+
+    padding: 24px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+
+}
+
+.btn-1, .btn-2{
+    background-color: #ffffff;
+    border: 2px solid;
+
+}
+.btn-1:hover, .btn-2:hover{
+    background-color: #daddff;
+    border: 2px solid;
+
+}
+
+.btn-3{
+    display: none;
+    position: absolute;
+    left: 75%;
+    bottom: 10%;
+}
+.btn-3:hover{
+    background-color: #adb2e0;
+    border: 2px solid;
+
+}
+
+footer{
+    position: relative;
+    width: 40%;
+    height: 67px;
+    top: 234px;
+    left: 30%;
+}

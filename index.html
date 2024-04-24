@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="/images/Logo.png" alt="Alura Logo" class="logo">
+        <h1>Alura</h1>
+    </header>
+    <main>
+        <section class="sec1">
+            <textarea class="entrada" id="textoEntrada" placeholder="Escribe tu texto aquí"></textarea>
+        </section>
+
+        <aside>
+            <textarea class="salida" id="textoSalida" placeholder="Resultado" disabled></textarea>
+
+            
+            <button class="btn-3" id="btnCopiar">Copiar</button>
+        </aside>
+
+        <section class="botones">
+            <button class="btn-1" id="btnEncriptar">Encriptar</button>
+            <button class="btn-2" id="btnDesencriptar">Desencriptar</button>
+        </section>
+       
+    </main>
+    <footer>Andres Casillas @ 2024</footer>
+</body>
+
+<script>
+    var btn = document.querySelector("#btnEncriptar");
+    btn.onclick = encriptar;
+
+    var btn2 = document.querySelector("#btnDesencriptar");
+    btn2.onclick = desencriptar;
+
+    
+    var btn3 = document.querySelector("#btnCopiar");
+    btn3.onclick = copiar;
+</script>
+
+</html>
